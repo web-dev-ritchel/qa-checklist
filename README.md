@@ -1,7 +1,5 @@
-<div align="center"><h1>QA Review Checklist Tracker</h1></div>
-
-<img width="1073" height="724" alt="image" src="https://github.com/user-attachments/assets/ae591e72-c75c-44df-8ca1-caaf8b6deba4" />
-
+<div align="center"><h1>QA Checklist</h1></div>
+<img width="1261" height="833" alt="image" src="https://github.com/user-attachments/assets/1f7cbb89-438c-4af5-baae-29cfb2f53636" />
 
 # Overview
 
