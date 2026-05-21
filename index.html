@@ -3,53 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QA Review & Checklist Tracker</title>
+  <title>QA Checklist</title>
    <!-- CSS FILE --> 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>QA Review & Checklist Tracker</h1>
+<div class="container">
 
-  <div class="container">
-
-    <!-- Stars Column -->
-    <div class="column" id="counterColumnContainer">
-      <h3>Star Ratings</h3>
-      <div id="counterColumn"></div>
-    </div>    
-
-    <!-- Checklist Column -->
-    <div class="column">
-      <div class="toggle">
-        <button id="designBtn" class="active" onclick="switchCategory('Design')">Design</button>
-        <button id="devBtn" onclick="switchCategory('Dev')">Development</button>
-      </div>
-      <div id="checklistColumn"></div>
+  <!-- Stars Column -->
+  <div class="column" id="counterColumnContainer">
+    <h1>QA Checklist</h1>
+    <div id="counterColumn"></div>
+    <div class="text-section">
+      <label>Needs Coaching:</label>
+      <textarea id="needsCoaching" placeholder="Write coaching notes..."></textarea>
     </div>
-
-    <!-- Summary Column -->
-    <div class="summary">
-      <h3>Summary</h3>
-      <p><strong>Tasks Checked:</strong> <span id="total">0</span></p>
-      <p><strong>Passed:</strong> <span id="passed">0</span></p>
-      <p><strong>Reworked:</strong> <span id="reworked">0</span></p>
-
-      <h4>Ratings:</h4>
-      <p>★★★★★ x<span id="r5">0</span></p>
-      <p>★★★★ x<span id="r4">0</span></p>
-      <p>★★★ x<span id="r3">0</span></p>
-      <p>★★ x<span id="r2">0</span></p>
-      <p>★ x<span id="r1">0</span></p>
-
-      <h4>Issues flagged:</h4>
-      <div id="issuesSummary"></div>
-
-      <button class="copySummary" onclick="copySummary()">Copy Summary</button>
-  <button class="reset" onclick="resetAll()">Reset All</button>      
+    <div class="text-section">
+      <label>Notes:</label>
+      <textarea id="notes" placeholder="Write general notes..."></textarea>
     </div>
-
+    <div class="text-section">
+      <label>Blockers:</label>
+      <textarea id="blockers" placeholder="Write blockers here..."></textarea>
+    </div>
   </div>
+
+  <!-- Checklist Column -->
+  <div class="column">
+    <div class="toggle">
+      <button id="designBtn" class="active" onclick="switchCategory('Design')">Design</button>
+      <button id="devBtn" onclick="switchCategory('Dev')">Development</button>
+    </div>
+    <div id="checklistColumn"></div>
+  </div>
+
+  <!-- Summary Column -->
+  <div class="summary">
+    <h3>Summary</h3>
+    <p><strong>Tasks Checked:</strong> <span id="total">0</span></p>
+    <p><strong>Passed:</strong> <span id="passed">0</span></p>
+    <p><strong>Reworked:</strong> <span id="reworked">0</span></p>
+    <h4>Ratings:</h4>
+    <p>★★★★★ x<span id="r5">0</span></p>
+    <p>★★★★ x<span id="r4">0</span></p>
+    <p>★★★ x<span id="r3">0</span></p>
+    <p>★★ x<span id="r2">0</span></p>
+    <p>★ x<span id="r1">0</span></p>
+    <h4>Issues flagged:</h4>
+    <div id="issuesSummary"></div>
+    <button class="copySummary" onclick="copySummary()">Copy Summary</button>
+    <button class="reset" onclick="resetAll()">Reset All</button>      
+  </div>
+  
+</div>
 
   <!-- JS FILE -->
   <script src="script.js"></script>

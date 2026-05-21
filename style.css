@@ -1,158 +1,224 @@
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-      background-color: #ffffff;
-    }
-
-    h1 { margin-bottom: 50px; }
-
-    .container {
-      display: flex;
-      gap: 30px;
-      flex-wrap: wrap;
-    border-radius: 20px;
-    justify-content: center;      
-      max-width: 1100px;
-    }
-
-    .column {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    div#counterColumnContainer h3 {
-    margin-top: 0;
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #dbeafe;
 }
-
-    /* Toggle Switch */
-    .toggle {
-      display: flex;
-      border: 1px solid #ccc;
-      border-radius: 12px;
-      overflow: hidden;
-      margin-bottom: 12px;
-      width: auto;
-    }
-
-    .toggle button {
-      flex: 1;
-      padding: 8px;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-      background: #f0f0f0;
-      color: #333;
-    }
-
-    .toggle button.active {
-      background: #007bff;
-      color: white;
-    }
-
-    /* Checklist Items */
-    .checkItemRow {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: white;
-      padding: 8px 12px;
-      border-radius: 8px;
-border: 1px solid #dfdfdf;
-min-width: 300px;
-      margin-bottom: 12px;
-    }
-
-    .checkItemRow span {
-      flex: 1;
-    }
-
-    .checkItemRow button {
-      width: 30px;
-      height: 30px;
-      font-size: 16px;
-      margin-left: 6px;
-      border-radius: 6px;
-      border: none;
-      cursor: pointer;
-      background: #007bff;
-      color: white;
-    }
-
-    .checkItemRow button.subtract { background: #f44336; }
-
-    /* Summary Column */
-    .summary {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-    border: 1px solid #dfdfdf;
-      min-width: 300px;
-    }
-
-    .reset, .copySummary {
-      margin-top: 20px;
-      padding: 10px 16px;
-      background: #333;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .copySummary {
-    margin-right: 20px;
+ body, text, button, textarea, h1, h2, h3 {
+     font-family: 'Inter', sans-serif;
 }
-
-.reset {
-    background: #f44336;
+ h1 {
+     font-size: 20px;
+     margin-bottom: 20px;
 }
-    /* Star Ratings */
-    .starCard {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: white;
-      padding: 10px 12px;
-      border-radius: 8px;
-border: 1px solid #dfdfdf;
-      min-width: 220px;
-      margin-bottom: 12px;
+ h3 {
+     margin-top: 13px;
+     margin-bottom: 30px;
+}
+ .container {
+     display: flex;
+     gap: 50px;
+     flex-wrap: wrap;
+     border-radius: 20px;
+     justify-content: center;
+     max-width: 1140px;
+     padding: 50px;
+     background: #ffffff;
+     margin: 50px 30px;
+     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+     border: 1px solid #ccc;
+}
+ .column {
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+}
+ div#counterColumnContainer h3 {
+     margin-top: 0;
+}
+/* Toggle Switch */
+ .toggle {
+     display: flex;
+     border: 1px solid #ccc;
+     border-radius: 12px;
+     overflow: hidden;
+     margin-bottom: 12px;
+     width: auto;
+     background: #f1f5f9;
+     padding: 6px;
+}
+ .toggle button {
+     flex: 1;
+     padding: 8px;
+     border: none;
+     cursor: pointer;
+     font-weight: bold;
+     background: #f1f5f9;
+     color: #64748b;
+     border-radius: 8px;
+     transition: all 0.3s ease;
+     font-size: 16px;
+}
+ .toggle button.active {
+     background: #ffffff;
+     color: #000000;
+}
+/* Checklist Items */
+ .checkItemRow {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    /* background: white;
+     */
+    /* padding: 8px 12px;
+     */
+    /* border-radius: 8px;
+     */
+     border-bottom: 1px solid #d9ecff;
+     min-width: 300px;
+     margin-bottom: 12px;
+     padding-bottom: 10px;
+}
+ .checkItemRow span {
+     flex: 1;
+}
+ .checkItemRow button {
+     width: 30px;
+     height: 30px;
+     font-size: 16px;
+     border-radius: 6px;
+     border: 1px solid #dfdfdf;
+     cursor: pointer;
+     background: #ffffff;
+     color: #000000;
+}
+ .checkItemRow button.subtract {
+    background: #ffffff;
+}
+/* Summary Column */
+ .summary {
+    /* background: white;
+     */
+    /* padding: 20px;
+     */
+     border-radius: 12px;
+    /* border: 1px solid #dfdfdf;
+     */
+     min-width: 300px;
+}
+ .reset, .copySummary {
+     margin-top: 20px;
+     padding: 10px 25px;
+     background: #333;
+     color: white;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 16px;
+}
+ .copySummary {
+     margin-right: 10px;
+}
+ .reset {
+     background: #f44336;
+}
+/* Star Ratings */
+ .starCard {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    /* background: white;
+     */
+    /* padding: 10px 12px;
+     */
+     border-radius: 8px;
+    /* border: 1px solid #dfdfdf;
+     */
+     min-width: 220px;
+     margin-bottom: 12px;
+     padding-bottom: 5px;
+}
+ .starLabel {
+     font-size: 18px;
+}
+ .starCount, span.checklistCount {
+    /* font-weight: bold;
+     */
+    font-size: 16px;
+     margin: 0 8px;
+     text-align: center;
+}
+ .starCard button {
+     width: 28px;
+     height: 28px;
+     font-size: 16px;
+     border-radius: 6px;
+     border: 1px solid #dfdfdf;
+     cursor: pointer;
+}
+ .starCard button.add {
+    background: #ffffff;
+    color: #000000;
+}
+ .starCard button.subtract {
+    background: #ffffff;
+    color: #000000;
+}
+ .checkItemRow button.add:hover, .starCard button.add:hover {
+     border-color: #2563eb;
+     color: #2563eb;
+     background: #eff6ff;
+}
+ .checkItemRow button.subtract:hover, .starCard button.subtract:hover {
+     border-color: #f44336;
+     color: #f44336;
+     background: #f4433642;
+}
+ .text-section {
+     margin-top: 15px;
+}
+ .text-section label {
+     display: block;
+     font-weight: 600;
+     margin-bottom: 6px;
+     color: #333;
+}
+ .text-section textarea {
+     width: 100%;
+     min-height: 90px;
+     padding: 10px;
+     border-radius: 8px;
+     border: 1px solid #ddd;
+     resize: vertical;
+     font-family: inherit;
+     font-size: 14px;
+     outline: none;
+     transition: 0.2s;
+     box-sizing: border-box;
+     resize: vertical;
+}
+ .text-section textarea:focus {
+     border-color: #4a90e2;
+     box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+}
+/* Responsive */
+ @media only screen and (max-width: 850px) {
+     .container {
+         padding: 30px 20px;
+         margin: 20px;
     }
-
-    .starLabel { font-size: 18px; }
-    .starCount, span.checklistCount {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0 8px;
-    text-align: center;
-}
-
-    .starCard button {
-      width: 28px;
-      height: 28px;
-      font-size: 16px;
-      border-radius: 6px;
-      border: none;
-      cursor: pointer;
+     .checkItemRow, .summary {
+         min-width: unset;
+         width: 100%;
     }
-
-    .starCard button.add { background: #4CAF50; color: white; }
-    .starCard button.subtract { background: #f44336; color: white; }
-
-@media only screen and (max-width: 767px) {
-.checkItemRow, .summary {
-    min-width: unset;
-    width: inherit;
-}
-.column {
-    width: 100%;
-}
-.reset, .copySummary {
-    width: 100%;
-    margin-right: 0;
-}
+     .column {
+         width: 100%;
+    }
+     .reset, .copySummary {
+         width: 100%;
+         margin-right: 0;
+    }
+     h3 {
+         margin-top: 0;
+    }    
 }
