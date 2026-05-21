@@ -5,7 +5,7 @@
 
 # Overview
 
-This QA Review Checklist Tracker tool helps you record and manage daily QA tasks in one place. It tracks completed tasks, star ratings, and issues flagged from either design or development. It also automatically generates a structured summary that can be copied directly for reporting. All data is saved locally, so your progress is preserved even if the app or browser is closed unexpectedly.
+This QA Checklist Tracker tool helps you record and manage daily QA tasks in one place. It tracks completed tasks, star ratings, and issues flagged from either design or development. It also automatically generates a structured summary that can be copied directly for reporting. All data is saved locally, so your progress is preserved even if the app or browser is closed unexpectedly.
 
 # Key Summary
 
