@@ -6,8 +6,8 @@
   const starLabels = ['★★★★★','★★★★','★★★','★★','★'];
 
   const checklists = {
-    Design: ['Exceeded Time Estimate','No Tracked Time','Missing Checklist','Brand Guidelines Not Followed','Weak Concept / Strategic Alignment','Poor Layout / Visual Hierarchy','Typography Issues','Color / Contrast Issues','Style Inconsistencies','Low Craft / Execution','Creative Drift / Unrequested Changes','Requirements Not Followed','Accessibility Issues','Missing Variants / States / Formats','Poorly Written Progress Report','Late Delivery','Slow Execution','Poor File Hygiene / Naming Structure','Incorrect Component / Auto-Layout Usage'],
-    Dev: ['Exceeded Time Estimate','No Tracked Time','Missing Checklist','Requirements Not Followed','Accessibility Issues','Missing Variants / States / Formats','Poorly Written Progress Report','Late Delivery','Slow Execution','Poor File Hygiene / Naming Structure','Design–Dev Mismatch','Responsiveness Issues','Broken Functionality','Poor Code Quality','Performance Issues','Cross-Browser / Cross-Device Issues','Incorrect CMS / Platform Setup','SEO / Metadata Issues','Version Control Issues']
+    Design: ['Exceeded Time Estimate','Missing Checklist','Brand Guidelines Not Followed','Weak Concept / Strategic Alignment','Poor Layout / Visual Hierarchy','Typography Issues','Color / Contrast Issues','Style Inconsistencies','Low Craft / Execution','Creative Drift / Unrequested Changes','Requirements Not Followed','Accessibility Issues','Missing Variants / States / Formats','Poorly Written Progress Report','Late Delivery','Slow Execution','Poor File Hygiene / Naming Structure','Incorrect Component / Auto-Layout Usage'],
+    Dev: ['Exceeded Time Estimate','Missing Checklist','Requirements Not Followed','Accessibility Issues','Missing Variants / States / Formats','Poorly Written Progress Report','Late Delivery','Slow Execution','Poor File Hygiene / Naming Structure','Design–Dev Mismatch','Responsiveness Issues','Broken Functionality','Poor Code Quality','Performance Issues','Cross-Browser / Cross-Device Issues','Incorrect CMS / Platform Setup','SEO / Metadata Issues','Version Control Issues']
   };
 
   let checklistCounts = {};
