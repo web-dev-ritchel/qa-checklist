@@ -1,5 +1,5 @@
 <div align="center"><h1>QA Checklist</h1></div>
-<img width="1261" height="833" alt="image" src="https://github.com/user-attachments/assets/1f7cbb89-438c-4af5-baae-29cfb2f53636" />
+<img width="1179" height="825" alt="image" src="https://github.com/user-attachments/assets/5e518fb4-677c-46f9-9d82-1a85cf459be4" />
 
 # Overview
 
