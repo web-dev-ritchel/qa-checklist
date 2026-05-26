@@ -1,4 +1,4 @@
- body {
+body {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -69,12 +69,6 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-    /* background: white;
-     */
-    /* padding: 8px 12px;
-     */
-    /* border-radius: 8px;
-     */
      border-bottom: 1px solid #d9ecff;
      min-width: 300px;
      margin-bottom: 12px;
@@ -98,13 +92,7 @@
 }
 /* Summary Column */
  .summary {
-    /* background: white;
-     */
-    /* padding: 20px;
-     */
      border-radius: 12px;
-    /* border: 1px solid #dfdfdf;
-     */
      min-width: 300px;
 }
  .reset, .copySummary {
@@ -128,13 +116,7 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-    /* background: white;
-     */
-    /* padding: 10px 12px;
-     */
      border-radius: 8px;
-    /* border: 1px solid #dfdfdf;
-     */
      min-width: 220px;
      margin-bottom: 12px;
      padding-bottom: 5px;
@@ -143,8 +125,6 @@
      font-size: 18px;
 }
  .starCount, span.checklistCount {
-    /* font-weight: bold;
-     */
     font-size: 16px;
      margin: 0 8px;
      text-align: center;
