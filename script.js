@@ -203,11 +203,11 @@ function copySummary(){
   text += `Passed: ${document.getElementById('passed').textContent}\n`;
   text += `Reworked: ${document.getElementById('reworked').textContent}\n\nRatings:\n`;
 
-  text += `★★★★★ x${document.getElementById('r5').textContent}\n`;
-  text += `★★★★ x${document.getElementById('r4').textContent}\n`;
-  text += `★★★ x${document.getElementById('r3').textContent}\n`;
-  text += `★★ x${document.getElementById('r2').textContent}\n`;
-  text += `★ x${document.getElementById('r1').textContent}\n\nIssues flagged:\n`;
+  text += `:star::star::star::star::star: x${document.getElementById('r5').textContent}\n`;
+  text += `:star::star::star::star: x${document.getElementById('r4').textContent}\n`;
+  text += `:star::star::star: x${document.getElementById('r3').textContent}\n`;
+  text += `:star::star: x${document.getElementById('r2').textContent}\n`;
+  text += `:star: x${document.getElementById('r1').textContent}\n\nIssues flagged:\n`;
 
   text += document.getElementById('issuesSummary').innerText;
 
